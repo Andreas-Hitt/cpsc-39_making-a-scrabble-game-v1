@@ -82,7 +82,7 @@ public class ScrabbleMain {
         }
 
         // Ask for a variable win condition
-        System.out.println("Set a win condition between 1 - 2000 points (recommended 150): ");
+        System.out.println("Set a win condition between 1 - 2000 points (recommended 75): ");
         while (true) {
             int choice = scnr.nextInt();
             if (choice >= 1 && choice <= 2000) {
